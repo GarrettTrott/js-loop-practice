@@ -19,6 +19,11 @@ print("1st Loop:");
 text = "";
 
 // Write 1st loop here:
+i = 0;
+do {
+  text += i + " ";
+  i += 1;
+} while (i < 5);
 
 print(text); // Should print `0 1 2 3 4 `.
 
@@ -29,6 +34,12 @@ text = "";
 
 // Write 2nd loop here:
 
+i = 1;
+do {
+  text += i + " ";
+  i += 1;
+} while (i <= 5);
+
 print(text); // Should print `1 2 3 4 5 `.
 
 // 3. Write a while loop to build a string of numbers from 5 to 1,
@@ -38,6 +49,12 @@ text = "";
 
 // Write 3rd loop here:
 
+i = 5;
+do {
+  text += i + " ";
+  i -= 1;
+} while (i > 0);
+
 print(text); // Should print `5 4 3 2 1 `.
 
 // 4. Write a while loop to build a string of numbers from 5 to 50--by 5's.
@@ -46,6 +63,12 @@ print("4th Loop:");
 text = "";
 
 // Write 4th loop here:
+
+i = 5;
+do {
+  text += i + " ";
+  i += 5;
+} while (i <= 50);
 
 print(text); // Should print `5 10 15 20 25 30 35 40 45 50 `.
 
@@ -57,6 +80,13 @@ print("5th Loop:");
 text = "";
 
 // Write 5th loop here:
+
+i = Math.floor(Math.random() * 10);
+do {
+  text += i + " ";
+  i = Math.floor(Math.random() * 10);
+} while (i != 8);
+text += i;
 
 print(text); // Should print something like `4 7 2 9 8 `, or `9 0 8 ` or `8 `.
 

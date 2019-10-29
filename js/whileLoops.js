@@ -80,11 +80,13 @@ print("5th Loop:");
 text = "";
 
 // Write 5th loop here:
-i = Math.floor(Math.random() * Math.floor(9));
-while (i < 8 || i = 8 || i = 9) {
+i = Math.floor(Math.random() * 10);
+
+while (i !== 8) {
   text += i + " ";
-  i = Math.floor(Math.random() * Math.floor(9));
+  i = Math.floor(Math.random() * 10);
 }
+text += i;
 
 print(text); // Should print something like `4 7 2 9 8 `, or `9 0 8 ` or `8 `.
 
