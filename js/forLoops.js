@@ -56,7 +56,7 @@ text = "";
 
 // Write 4th loop here:
 
-for (let i = 0; i <= 50; i += 5) {
+for (let i = 5; i <= 50; i += 5) {
   text += i + " ";
 }
 
@@ -69,7 +69,7 @@ text = "";
 
 // Write 5th loop here:
 
-for (let i = 50; i >= 0; i -= 5) {
+for (let i = 50; i >= 1; i -= 5) {
   text += i + " ";
 }
 
